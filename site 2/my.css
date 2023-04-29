@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+header {
+    height: 140vh;
+    /* background: url('./img/Rectangle\ 236.png'); */
+    z-index: -9999999;
+}
+
+.back {
+    Width: 1376px;
+    position: absolute;
+    z-index: -1;
+    Height: 965px;
+    background: url('./img/Vector\ 3.png');
+    background-size: cover;
+}
+
+.beck {
+    Width: 1903px;
+    Height: 1233px;
+    z-index: -999;
+    position: absolute;
+    background: url('./img/Rectangle\ 236.png');
+    background-size: cover;
+}
+
+.container {
+    width: calc(100% - 407px);
+    margin: 0 auto;
+}
+
+.header-icon {
+    display: flex;
+    padding: 66px 0 80px 130px;
+}
+
+.text-icon h2 {
+    font-family: Mitr;
+    font-size: 53px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2E8CAD;
+}
+
+.header-icon p {
+    font-family: Mitr;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0.15em;
+    text-align: left;
+    color: #2E8CAD;
+}
+
+.ham {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-text h1 {
+    font-family: Mitr;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 446px;
+    color: #2E8CAD;
+}
+
+.header-text p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 446px;
+    margin: 30px 0 33px 0;
+}
+
+.drop-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.drop-box p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2E8CAD;
+}
+
+.header-button {
+    background: #2EBAEB;
+    border-radius: 40px;
+    padding: 13px 40px;
+    border: none;
+    outline: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.right .contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.conta {
+    width: 480px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 30px 45px;
+}
+
+.conta h1 {
+    font-family: Mitr;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2E8CAD;
+    margin: 30px 0 40px 0;
+}
+
+.footer-box {
+    background-color: #50B2EA;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.footer-box h2 {
+    color: #19435A;
+    font-family: mitr;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact {
+    padding: 13px 52px;
+    border: none;
+    background-color: #50B2EA;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    color: white;
+    font-family: mitr;
+}
+
+.word {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.about {
+    font-family: Mitr;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2E8CAD;
+}
+
+.num {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #2E8CAD;
+    color: #2E8CAD;
+}
+
+.about-text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 330px;
+    margin: 70px 50px 0 0;
+}
+
+.about-text p {
+    color: #4F4F4F;
+    margin-top: 10px;
+}
+
+.sec-btn {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0 54px 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0e7ba3;
+}
+
+.ser-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2 {
+    height: 814px;
+    background: #F2F2F2;
+}
+
+.ser-box-1 {
+    margin: 0 22px;
+    height: 504px;
+    width: 385px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.text {
+    padding: 30px;
+}
+
+.text h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.text p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.section-2 .container h1 {
+    font-family: Mitr;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2E8CAD;
+    padding: 50px 0;
+}
+
+.section-4 {
+    width: 100%;
+    height: 718px;
+    background-color: #95D4EB;
+    padding: 50px 0;
+}
+
+.section-4 .container h1 {
+    font-family: mitr;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comment {
+    height: 233px;
+    width: 577px;
+    left: 352px;
+    top: 2449px;
+    border-radius: 40px;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    margin: 0 0 30px 46px;
+}
+
+.com-text {
+    margin-left: 14px;
+}
+
+.com-text h3 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #50B2EA;
+}
+
+.com-text p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #19435A;
+    margin: 13px 0 11px 0;
+}
+
+.fa {
+    color: #50B2EA;
+    ;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: #47626B;
+}
