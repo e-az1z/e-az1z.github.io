@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    /* max-width: 1140px; */
+    /* height: 900px; */
+    display: flex;
+    /* background-color: red; */
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    background-image: url('./img/Logo.png');
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+}
+
+.box {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right {
+    width: 50%;
+    /* background-color: red; */
+    position: absolute;
+    right: 0;
+    background-image: url('./img/ramlee_website_login_patern_image_abstract_atractive_interest__4452ded4-62a8-4d73-8005-8c53b1455096\ 1.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+}
+
+.img-1 {
+
+    width: 100%;
+    height: 100vh;
+}
+
+.h_title h1 {
+    color: #000;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.h_title p {
+    color: var(--neutral-7-o, #757575);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+.input label {
+    color: #000;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 16px 0;
+}
+.input input {
+    display: flex;
+padding: 12px 100px 12px 24px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 16px;
+border: 1px solid var(--neutral-5-o, #C2C2C2);
+outline: none;
+
+} 
+.remeber {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxi{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.boxi p {
+    color: var(--neutral-7-o, #757575);
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 8px;
+}
+.remeber {
+    margin: 27px 0;
+}
+.remeber a {
+    color: #3B77D7;
+text-align: right;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+
+.check {
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+border-radius: 4px !important;
+border: 1px solid var(--neutral-5-o, #C2C2C2);
+
+}
+
+.buttons {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.btn_1 {
+    color: var(--neutral-1-o, #FFF);
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+padding: 12px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 16px;
+background: #3B77D7;
+outline: none;
+margin-bottom: 16px;
+border: none;
+}
+.btn_2 {
+    color: var(--neutral-7-o, #757575);
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 16px;
+border: 1px solid var(--neutral-5-o, #C2C2C2);
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+padding: 12px 50px;
+}
+.footer p {
+    color: #757575;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 32px;
+}
+
+.footer p a {
+    color: #3B77D7;
+    text-decoration: none;
+}
+
+ .end-box {
+     display: none;
+    /* width: 100%;
+    height: 270px;
+    background-image: url('./img/ramlee_website_login_patern_image_abstract_atractive_interest__4452ded4-62a8-4d73-8005-8c53b1455096\ 1\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: 100%; */
+} 
+
+.img-2 {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .right {
+        background-image: url('./img/ramlee_website_login_patern_image_abstract_atractive_interest__4452ded4-62a8-4d73-8005-8c53b1455096\ 1\ \(1\).png');
+    }
+    .img-1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 652px) {
+    .img-2 {
+        display: none;
+    }
+    .left {
+        width: 100%;
+    }
+    .end-box {
+        display: block;
+        width: 100% !important;
+    }
+    .end-box img {
+        width: 100%;
+    }
+    .right {
+        display: none;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        height: 90vh;
+    }
+}
