@@ -7,21 +7,32 @@
 }
 
 section {
-    /* max-width: 1140px; */
-    /* height: 900px; */
+    max-width: 100%;
     display: flex;
-    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+.content {
+    display: flex;
+    width: 1140px;
+    position: relative;
 }
 
 .logo {
     width: 200px;
     height: 100px;
     background-image: url('./img/Logo.png');
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .left {
     width: 50%;
     height: 100vh;
+    height: 900px;
 }
 
 .box {
@@ -30,18 +41,22 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 0 20px;
+    margin-top: 60px;
+    position: relative;
+    height: 900px;
+    top: -60px;
 }
 
 .right {
     width: 50%;
-    /* background-color: red; */
+    height: 900px !important;
     position: absolute;
     right: 0;
     background-image: url('./img/ramlee_website_login_patern_image_abstract_atractive_interest__4452ded4-62a8-4d73-8005-8c53b1455096\ 1.png');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: 100%; */
 }
 
 .img-1 {
@@ -199,12 +214,7 @@ margin-top: 32px;
 }
 
  .end-box {
-     display: none;
-    /* width: 100%;
-    height: 270px;
-    background-image: url('./img/ramlee_website_login_patern_image_abstract_atractive_interest__4452ded4-62a8-4d73-8005-8c53b1455096\ 1\ \(2\).png');
-    background-repeat: no-repeat;
-    background-size: 100%; */
+    display: none;
 } 
 
 .img-2 {
@@ -220,28 +230,34 @@ margin-top: 32px;
     }
 }
 
-@media screen and (max-width: 652px) {
-    .img-2 {
-        display: none;
-    }
-    .left {
-        width: 100%;
-    }
-    .end-box {
-        display: block;
-        width: 100% !important;
-    }
-    .end-box img {
-        width: 100%;
+@media screen and (max-width: 654px) {
+    .content {
+        display: flex;
+        flex-direction: column;
     }
     .right {
         display: none;
     }
-    section {
-        display: flex;
-        flex-direction: column;
-    }
     .left {
-        height: 90vh;
+        height: 100vh !important;
+        width: 100%;
+        padding-top: 240px;
+    }
+    .end-box {
+        display: block;
+        margin-top: 100px;
+    }
+    .end-box img {
+        width: 100%;
+        height: 400px;
+        background-position: center;
+    }
+    .reg {
+        margin-top: -100px;
+    }
+}
+@media screen and (max-width: 508px) {
+    .end-box img {
+        height: 300px;
     }
 }
