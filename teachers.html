@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>o'qituvchilar</title>
+    <link rel="stylesheet" href="./assets/css/my.css">
+    <link rel="icon" href="./assets/img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="nav_without_color">
+        <div class="container conta">
+            <div class="nav_div">
+                <a href="index.html" class="logo_a">
+                    <div class="logo">
+                        <img src="./assets/img/logo.png " alt="logo">
+                    </div>
+                </a>
+                <img src="./assets/img/menu.png" width="35px" id="menuToggle" onclick="tugmaC()">
+                <ul class="ul_2 nav_2">
+                    <img src="./assets/img/close.png" width="40px" id="menuClose" onclick="tugmaCl()">
+                    <li><a href="index.html">Bosh Sahifa</a></li>
+                    <li><a href="malumot.html">Biz haqimizda</a></li>
+                    <li class="active"><a href="teachers.html">O'qituvchilar</a></li>
+                    <li><a href="sports.html">Sportlar</a></li>
+                    <li><a href="students.html">O'quvchilar</a></li>
+                    <li><a href="gallery.html">Galereya</a></li>
+                    <li><a href="contact.html">Bog'lanish</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="main_header">
+        <div class="h_text">
+            <h3 class="heading_1 white">Samarqand Tumani 29-maktab</h3>
+            <p class="pharagraph_5 width">
+                Bu sahifada siz maktabimizda dars beradigan o'qituvchilar haqida ma'lumotga ega bo'lasiz.
+            </p>
+        </div>
+    </header>
+
+    <section class="s4" style="background-color: white;">
+        <div class="container c4">
+            <div class="teachers_jc">
+                <h1 class="heading_1 grey">o'qituvchilar</h1>
+                <form class="search md formS">
+                    <input type="search" placeholder="o'qituvchi nomini kiriting">
+                </form>
+            </div>
+            <span class="hr"></span>
+            <div class="events">
+                <p class="error">Hech narsa topilmadi!</p>
+                <div class="data_box" id="g_box">
+                    <div class="data_img_b">
+                        <img src="assets/img/akobirova.png" alt="event1">
+                    </div>
+                    <table class="e_box_txt t0">
+                        <tr class="pharagraph_4">
+                            <td>Ism Familya</td>
+                            <td class="search_title">: <span></span>Akobirova Nasiba</td>
+                        </tr>
+                        <tr class="pharagraph_4">
+                            <td>Fan</td>
+                            <td>: <span></span>Boshlang'ich sinf rohbar</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="data_box" id="g_box">
+                    <div class="data_img_b">
+                        <img src="./assets/img/akramova.png" alt="event1">
+                    </div>
+                    <table class="e_box_txt t0">
+                        <tr class="pharagraph_4">
+                            <td>Ism Familya</td>
+                            <td class="search_title">: <span></span>Akramova Nilufar</td>
+                        </tr>
+                        <tr class="pharagraph_4">
+                            <td>Fan</td>
+                            <td>: <span></span> Matematika</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="data_box" id="g_box">
+                    <div class="data_img_b">
+                        <img src="./assets/img/abdutagirova.png" alt="event1">
+                    </div>
+                    <table class="e_box_txt t0">
+                        <tr class="pharagraph_4">
+                            <td>Ism Familya</td>
+                            <td class="search_title">: <span></span>Abdutagirova Gulnora</td>
+                        </tr>
+                        <tr class="pharagraph_4">
+                            <td>Fan</td>
+                            <td>: <span></span> Rus tili</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="data_box" id="g_box">
+                    <div class="data_img_b">
+                        <img src="./assets/img/ganiyeva.png" alt="event1">
+                    </div>
+                    <table class="e_box_txt t0">
+                        <tr class="pharagraph_4">
+                            <td>Ism Familya</td>
+                            <td class="search_title">: <span></span> G'aniyeva Dilafruz</td>
+                        </tr>
+                        <tr class="pharagraph_4">
+                            <td>Fan</td>
+                            <td>: <span></span> Biologiya</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="data_box" id="g_box">
+                    <div class="data_img_b">
+                        <img src="./assets/img/gafarova.png" alt="event1">
+                    </div>
+                    <table class="e_box_txt t0">
+                        <tr class="pharagraph_4">
+                            <td>Ism Familya</td>
+                            <td class="search_title">: <span></span>Gaffarova Shaxnoza</td>
+                        </tr>
+                        <tr class="pharagraph_4">
+                            <td>Fan</td>
+                            <td>: <span></span> Ingliz tili</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="data_box" id="g_box">
+                    <div class="data_img_b">
+                        <img src="./assets/img/jalolova.png" alt="event1">
+                    </div>
+                    <table class="e_box_txt t0">
+                        <tr class="pharagraph_4">
+                            <td>Ism Familya</td>
+                            <td class="search_title">: <span></span>Jalolova Nilufar</td>
+                        </tr>
+                        <tr class="pharagraph_4">
+                            <td>Fan</td>
+                            <td>: <span></span> Boshlang'ich sinf rohbar</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="data_box" id="g_box">
+                    <div class="data_img_b">
+                        <img src="./assets/img/zoxidova.png" alt="event1">
+                    </div>
+                    <table class="e_box_txt t0">
+                        <tr class="pharagraph_4">
+                            <td>Ism Familya</td>
+                            <td class="search_title">: <span></span>Zoxidova Navbahor</td>
+                        </tr>
+                        <tr class="pharagraph_4">
+                            <td>Fan</td>
+                            <td>: <span></span> Tarix</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="data_box" id="g_box">
+                    <div class="data_img_b">
+                        <img src="./assets/img/abduhakimova.png" alt="event1">
+                    </div>
+                    <table class="e_box_txt t0">
+                        <tr class="pharagraph_4">
+                            <td>Ism Familya</td>
+                            <td class="search_title">: <span></span>Abduxakimova Nargiza</td>
+                        </tr>
+                        <tr class="pharagraph_4">
+                            <td>Fan</td>
+                            <td>: <span></span> Rus tili</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="pagination center">
+                <div class="btn_l center" onclick="repPagination().btnPV(-1)"><img src="./assets/img/left.svg" alt="left"></div>
+                <div class="btns center"></div>
+                <div class="btn_l center" onclick="repPagination().btnPV(1)"><img src="./assets/img/right2.svg" alt="right"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="end_boxes">
+                <div class="footer_right">
+                    <div class="end-box">
+                        <a href="index.html" class="logo_a">
+                            <div class="logo">
+                                <img src="./assets/img/logo.png " alt="logo">
+                            </div>
+                        </a>
+                        <p>Samarqand Tumani 29-maktab
+                        </p>
+                        <p>
+                            Telefon nomer: <a href="tel:+998915322231" style="color: black;">+998915322231</a></p>
+                        <h5 style="margin-top: 24px;word-break: break-all;">ssam29maktab@gmail.com</h5>
+                    </div>
+                    <hr class="hd">
+                    <div class="end-box">
+                        <h5>sahifalar</h5>
+                        <a href="index.html">
+                            <h6>Bosh sahifa</h6>
+                        </a>
+                        <a href="malumot.html">
+                            <h6>Biz haqimizda</h6>
+                        </a>
+                        <a href="teachers.html">
+                            <h6>O'qituvchilar</h6>
+                        </a>
+                        <a href="sports.html">
+                            <h6>Sportlar</h6>
+                        </a>
+                        <a href="https://maps.app.goo.gl/HTaHC61qmTdKwoTy6">
+                            <h6>Manzilimiz</h6>
+                        </a>
+                    </div>
+                    <hr class="hd">
+                    <div class="end-box">
+                        <h5>Hamma sahifalar</h5>
+                        <a href="students.html">
+                            <h6>O'quvchilar</h6>
+                        </a>
+                        <a href="gallery.html">
+                            <h6>Galereya</h6>
+                        </a>
+                        <a href="about.html">
+                            <h6>Maktab haqida</h6>
+                        </a>
+                        <a href="contact.html">
+                            <h6>Bog'lanish</h6>
+                        </a>
+                        <a href="404.html">
+                            <h6>404 sahifa</h6>
+                        </a>
+                    </div>
+                    <hr class="hd">
+                    <div class="end-box">
+                        <h5>Ijtimoiy tarmoqlarimiz</h5>
+                        <div class="iconka">
+                            <a href="https://www.facebook.com/groups/1380514275655628/"> <i
+                                    class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://instagram.com/sam29maktab"> <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://t.me/samtxtb29"> <i class="fa-brands fa-telegram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="hr">
+        <div class="container">
+            <p>©2023. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+    <script>
+        const myImg = document.querySelectorAll(".data_img_b");
+        myImg.forEach(img => {
+            let realWidth = img.clientWidth;
+            img.style.height = (realWidth / (1 / 1)) + 'px';
+        })
+    </script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/pagination.js"></script>
+</body>
+
+</html>

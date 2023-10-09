@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bog'lanish</title>
+    <link rel="stylesheet" href="./assets/css/my.css">
+    <link rel="icon" href="./assets/img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="nav_without_color">
+        <div class="container conta">
+            <div class="nav_div">
+                <a href="index.html" class="logo_a">
+                    <div class="logo">
+                        <img src="./assets/img/logo.png " alt="logo">
+                    </div>
+                </a>
+                <img src="./assets/img/menu.png" width="35px" id="menuToggle" onclick="tugmaC()">
+                <ul class="ul_2 nav_2">
+                    <img src="./assets/img/close.png" width="40px" id="menuClose" onclick="tugmaCl()">
+                    <li><a href="index.html">Bosh Sahifa</a></li>
+                    <li><a href="malumot.html">Biz haqimizda</a></li>
+                    <li><a href="teachers.html">O'qituvchilar</a></li>
+                    <li><a href="sports.html">Sportlar</a></li>
+                    <li><a href="students.html">O'quvchilar</a></li>
+                    <li><a href="gallery.html">Galereya</a></li>
+                    <li class="active"><a href="contact.html">Bog'lanish</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="main_header center">
+        <div class="h_text">
+            <h3 class="heading_1 white">Samarqnad tumani 29-maktab</h3>
+            <p class="pharagraph_5 width">
+                Bu sahifada siz o'zingizga qiziqgan savollarga javob topishingiz mumkin. Biz bilan bog'laning.
+            </p>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <form class="form" id="contact-form">
+                <div class="flx">
+                    <label for="name">Ismingiz
+                        <input type="text" id="name" placeholder="ismingizni kiriting" name="user__name" required>
+                    </label>
+                    <label for="email">Emailingiz
+                        <input type="text" id="email" placeholder="maktab29@gmail.com" name="user__email" required>
+                    </label>
+                </div>
+                <label for="tel">Telefon nomer
+                    <input type="tel" placeholder="+998" id="tel" name="user__phone" required>
+                </label>
+
+                <label for="message">Xabar tarkibi
+                    <textarea name="message" id="contact-message" placeholder="Xabaringizni yozib qoldiring"
+                        required></textarea>
+                </label>
+
+                <button type="submit">
+                    Yuborish
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1536.4560735881564!2d67.0032164!3d39.6291819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d21c8c0dabe17%3A0x9277f094c59449c!2z0KjQutC-0LvQsCAyOQ!5e0!3m2!1sru!2s!4v1696613531989!5m2!1sru!2s"
+                width="100%" height="516px" style="border:0; border-radius: 4px;margin: 100px 0 80px;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe">
+            </iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="end_boxes">
+                <div class="footer_right">
+                    <div class="end-box">
+                        <a href="index.html" class="logo_a">
+                            <div class="logo">
+                                <img src="./assets/img/logo.png " alt="logo">
+                            </div>
+                        </a>
+                        <p>Samarqand Tumani 29-maktab
+                        </p>
+                        <p>
+                            Telefon nomer: <a href="tel:+998915322231" style="color: black;">+998915322231</a></p>
+                        <h5 style="margin-top: 24px;word-break: break-all;">ssam29maktab@gmail.com</h5>
+                    </div>
+                    <hr class="hd">
+                    <div class="end-box">
+                        <h5>sahifalar</h5>
+                        <a href="index.html">
+                            <h6>Bosh sahifa</h6>
+                        </a>
+                        <a href="malumot.html">
+                            <h6>Biz haqimizda</h6>
+                        </a>
+                        <a href="teachers.html">
+                            <h6>O'qituvchilar</h6>
+                        </a>
+                        <a href="sports.html">
+                            <h6>Sportlar</h6>
+                        </a>
+                        <a href="https://maps.app.goo.gl/HTaHC61qmTdKwoTy6">
+                            <h6>Manzilimiz</h6>
+                        </a>
+                    </div>
+                    <hr class="hd">
+                    <div class="end-box">
+                        <h5>Hamma sahifalar</h5>
+                        <a href="students.html">
+                            <h6>O'quvchilar</h6>
+                        </a>
+                        <a href="gallery.html">
+                            <h6>Galereya</h6>
+                        </a>
+                        <a href="about.html">
+                            <h6>Maktab haqida</h6>
+                        </a>
+                        <a href="contact.html">
+                            <h6>Bog'lanish</h6>
+                        </a>
+                        <a href="404.html">
+                            <h6>404 sahifa</h6>
+                        </a>
+                    </div>
+                    <hr class="hd">
+                    <div class="end-box">
+                        <h5>Ijtimoiy tarmoqlarimiz</h5>
+                        <div class="iconka">
+                            <a href="https://www.facebook.com/groups/1380514275655628/"> <i
+                                    class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://instagram.com/sam29maktab"> <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://t.me/samtxtb29"> <i class="fa-brands fa-telegram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="hr">
+        <div class="container">
+            <p>©2023. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/send.js"></script>
+</body>
+
+</html>
